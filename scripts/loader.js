@@ -9,11 +9,13 @@ tank_id = "";
 pixelMap = "";
 
 var tankCount = 0;
-var environment = "development";
+var environment = "developmen";
 
 var base_url;
 if(environment == "development")
-		base_url = "http://localhost:8080/";
+	base_url = "http://localhost:8080/";
+else
+	base_url= "http://bottlezz2002.info:8080/";
 
 
 function load(){
